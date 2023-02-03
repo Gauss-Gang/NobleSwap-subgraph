@@ -22,8 +22,6 @@ Currently, there are multiple subgraphs, but additional subgraphs can be added t
 
 8. **[Timelock](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/timelock)**: Tracks all NobleSwap Timelock queued, executed, and cancelled transactions.
 
-09. **[Trading Competition (v1)](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/trading-competition-v1)**: Tracks all metrics for the Easter Battle (April 07—14, 2021).
-
 ## Dependencies
 
 - [Graph CLI](https://github.com/graphprotocol/graph-cli)
