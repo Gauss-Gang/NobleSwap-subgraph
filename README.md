@@ -6,25 +6,23 @@ Currently, there are multiple subgraphs, but additional subgraphs can be added t
 
 ## Subgraphs
 
-1. **[Blocks](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/blocks)**: Tracks all blocks on Binance Smart Chain.
+1. **[Blocks](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/blocks)**: Tracks all blocks on Gauss Chain.
 
 2. **[Exchange](https://pancakeswap.medium.com/pancakeswap-info-relaunch-in-partnership-with-150-000-bounty-winner-streamingfast-f7892559d388)**: Tracks all NobleSwap Exchange data with price, volume, liquidity, ...
 
 3. **[Farm Auctions](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/farm-auctions)**: Tracks all NobleSwap Farm Auctions with auctions and bids.
 
-4. **[Lottery](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/lottery)**: Tracks all NobleSwap Lottery with rounds, draws and tickets.
+4. **[NFT Market (v1)](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/nft-market)**: Tracks all NobleSwap NFT Market for ERC-721.
 
-5. **[NFT Market (v1)](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/nft-market)**: Tracks all NobleSwap NFT Market for ERC-721.
+5. **[Pairs](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/pairs)**: Tracks all NobleSwap Pairs and Tokens.
 
-6. **[Pairs](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/pairs)**: Tracks all NobleSwap Pairs and Tokens.
+6. **[Profile](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/profile)**: Tracks all NobleSwap Profile with teams, users, points and campaigns.
 
-10. **[Profile](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/profile)**: Tracks all NobleSwap Profile with teams, users, points and campaigns.
+7. **[SmartChef](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/smartchef)**: Tracks all NobleSwap SmartChef (a.k.a. Syrup Pools) with tokens and rewards.
 
-11. **[SmartChef](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/smartchef)**: Tracks all NobleSwap SmartChef (a.k.a. Syrup Pools) with tokens and rewards.
+8. **[Timelock](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/timelock)**: Tracks all NobleSwap Timelock queued, executed, and cancelled transactions.
 
-12. **[Timelock](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/timelock)**: Tracks all NobleSwap Timelock queued, executed, and cancelled transactions.
-
-13. **[Trading Competition (v1)](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/trading-competition-v1)**: Tracks all metrics for the Easter Battle (April 07—14, 2021).
+09. **[Trading Competition (v1)](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/trading-competition-v1)**: Tracks all metrics for the Easter Battle (April 07—14, 2021).
 
 ## Dependencies
 
