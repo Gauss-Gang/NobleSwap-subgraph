@@ -8,7 +8,7 @@ Currently, there are multiple subgraphs, but additional subgraphs can be added t
 
 1. **[Blocks](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/blocks)**: Tracks all blocks on Gauss Chain.
 
-2. **[Exchange](https://pancakeswap.medium.com/pancakeswap-info-relaunch-in-partnership-with-150-000-bounty-winner-streamingfast-f7892559d388)**: Tracks all NobleSwap Exchange data with price, volume, liquidity, ...
+2. **[Exchange]()**: Tracks all NobleSwap Exchange data with price, volume, liquidity, etc.
 
 3. **[Farm Auctions](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/farm-auctions)**: Tracks all NobleSwap Farm Auctions with auctions and bids.
 
@@ -21,6 +21,9 @@ Currently, there are multiple subgraphs, but additional subgraphs can be added t
 7. **[SmartChef](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/smartchef)**: Tracks all NobleSwap SmartChef (a.k.a. Syrup Pools) with tokens and rewards.
 
 8. **[Timelock](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/timelock)**: Tracks all NobleSwap Timelock queued, executed, and cancelled transactions.
+
+14. **[MasterChef (v2)](https://thegraph.com/hosted-service/subgraph/pancakeswap/masterchef-v2)**: Tracks data for MasterChefV2.
+
 
 ## Dependencies
 
