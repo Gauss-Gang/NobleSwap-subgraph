@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: Gauss Chain Blocks
-repository: https://github.com/pancakeswap
+repository: https://github.com/gauss-gang
 schema:
   file: ./schema.graphql
 dataSources:
