@@ -1,16 +1,16 @@
 specVersion: 0.0.2
-description: NFT market for ERC721 tokens on Binance Smart Chain
-repository: https://github.com/pancakeswap
+description: NFT market for ERC721 tokens on Gauss Chain
+repository: https://github.com/Gauss-Gang
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: ERC721NFTMarketV1
-    network: bsc
+    network: mainnet-local
     source:
-      address: "0x17539cCa21C7933Df5c980172d22659B8C345C5A"
+      address: "0xB8A74CF52BAC6d4a2D92021BEcD6CD764109003A"
       abi: ERC721NFTMarketV1
-      startBlock: 11352302
+      startBlock: 945000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -27,8 +27,6 @@ dataSources:
           file: ./abis/ERC721NFTMarketV1.json
         - name: IERC721
           file: ./abis/IERC721.json
-        - name: PancakeBunnies
-          file: ./abis/PancakeBunnies.json
       eventHandlers:
         - event: AskCancel(indexed address,indexed address,indexed uint256)
           handler: handleAskCancel

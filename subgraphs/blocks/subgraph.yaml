@@ -1,5 +1,5 @@
 specVersion: 0.0.2
-description: Binance Smart Chain Blocks
+description: Gauss Chain Blocks
 repository: https://github.com/pancakeswap
 schema:
   file: ./schema.graphql
