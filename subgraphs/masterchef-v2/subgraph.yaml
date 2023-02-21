@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: MasterChefV2
-    network: bsc
+    network: mainnet-local
     source:
       address: "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652"
       abi: MasterChefV2
-      startBlock: 17047980
+      startBlock: 1212087
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4

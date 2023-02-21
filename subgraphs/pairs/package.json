@@ -1,13 +1,15 @@
 {
   "name": "pairs",
-  "description": "PancakeSwap Subgraph",
+  "description": "NobleSwap Subgraph",
   "version": "1.0.0",
-  "repository": "git@github.com:pancakeswap/pancake-subgraph.git",
-  "author": "PancakeSwap",
+  "repository": "git@github.com:gauss-gang/nobleswap-subgraph.git",
+  "author": "NobleSwap",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
+    "create-local": "graph create --node http://localhost:8020 nobleswap/pairs",
+    "deploy-local": "graph deploy --node http://localhost:8020 --ipfs http://localhost:5001 nobleswap/pairs",
     "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/pairs subgraph.yaml"
   }
 }

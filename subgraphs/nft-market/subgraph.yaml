@@ -10,7 +10,7 @@ dataSources:
     source:
       address: "0xB8A74CF52BAC6d4a2D92021BEcD6CD764109003A"
       abi: ERC721NFTMarketV1
-      startBlock: 945000
+      startBlock: 1212087
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4

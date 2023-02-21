@@ -1,16 +1,16 @@
 specVersion: 0.0.2
-description: Track Pairs and Tokens on PancakeSwap (v2) protocol
-repository: https://github.com/pancakeswap
+description: Track Pairs and Tokens on NobleSwap (v1) protocol
+repository: https://github.com/Gauss-Gang
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: bsc
+    network: mainnet-local
     source:
-      address: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'
+      address: '0x59e0682953725Fb546F5f3Ce5ADcf36FDC41A2b2'
       abi: Factory
-      startBlock: 6809737
+      startBlock: 1212087
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
