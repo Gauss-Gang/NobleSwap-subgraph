@@ -1,5 +1,5 @@
 specVersion: 0.0.2
-description: NFT market for ERC721 tokens on Gauss Chain
+description: NFT market for ERC721 tokens on GIL Testnet
 repository: https://github.com/Gauss-Gang
 schema:
   file: ./schema.graphql

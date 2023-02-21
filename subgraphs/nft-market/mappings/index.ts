@@ -13,11 +13,10 @@ import {
 } from "../generated/ERC721NFTMarketV1/ERC721NFTMarketV1";
 import { toBigDecimal } from "./utils";
 import { updateCollectionDayData, updateMarketPlaceDayData } from "./utils/dayUpdates";
-import { fetchBunnyId, fetchName, fetchSymbol, fetchTokenURI } from "./utils/erc721";
+import { fetchName, fetchSymbol, fetchTokenURI } from "./utils/erc721";
 
 // Constants
 let ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
-let PANCAKE_BUNNIES_ADDRESS = "0xdf7952b35f24acf7fc0487d01c8d5690a60dba07";
 
 // BigNumber-like references
 let ZERO_BI = BigInt.fromI32(0);
@@ -100,9 +99,6 @@ export function handleAskNew(event: AskNew): void {
   if (token === null) {
     token = new NFT(event.params.collection.toHex() + "-" + event.params.tokenId.toString());
     token.tokenId = event.params.tokenId;
-    if (event.params.collection.equals(Address.fromString(PANCAKE_BUNNIES_ADDRESS))) {
-      token.otherId = fetchBunnyId(event.params.collection, event.params.tokenId);
-    }
     token.collection = collection.id;
     token.metadataUrl = fetchTokenURI(event.params.collection, event.params.tokenId);
     token.updatedAt = event.block.timestamp;

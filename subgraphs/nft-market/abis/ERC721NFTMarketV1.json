@@ -13,7 +13,7 @@
       },
       {
         "internalType": "address",
-        "name": "_WBNBAddress",
+        "name": "_WGANGAddress",
         "type": "address"
       },
       {
@@ -382,7 +382,7 @@
   },
   {
     "inputs": [],
-    "name": "WBNB",
+    "name": "WGANG",
     "outputs": [
       {
         "internalType": "address",
@@ -475,7 +475,7 @@
         "type": "uint256"
       }
     ],
-    "name": "buyTokenUsingWBNB",
+    "name": "buyTokenUsingWGANG",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -949,6 +949,47 @@
         "internalType": "uint256",
         "name": "",
         "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "collection",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "tokenIds",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "viewAsksByCollectionAndTokenIds",
+    "outputs": [
+      {
+        "internalType": "bool[]",
+        "name": "statuses",
+        "type": "bool[]"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "seller",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "price",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct ERC721NFTMarketV1.Ask[]",
+        "name": "askInfo",
+        "type": "tuple[]"
       }
     ],
     "stateMutability": "view",

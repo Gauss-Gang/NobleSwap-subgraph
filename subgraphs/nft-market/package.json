@@ -8,6 +8,7 @@
   "scripts": {
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
+    "deploy-local": "graph deploy --node http://localhost:8020 --ipfs http://localhost:5001 nobleswap/nft-market",
     "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ noble-swap/nft-market subgraph.yaml"
   }
 }
